@@ -1,0 +1,127 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left, .right{
+    display: flex;
+    gap: 20px;
+}
+
+.right div {
+    gap: 20px;
+}
+
+.left div svg {
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+}
+
+.right div svg{
+    transition: 0.3s ease-in-out;
+    display: block;
+    padding: 20px;
+}
+
+.left div svg,.right div svg{
+    display: block
+}
+
+.left div svg:hover,
+.right div svg:hover{
+    background: white;
+    color: black;
+}
+
+.flex{
+    display: flex;
+} 
+.bg-black{
+    background: black
+} 
+.color-white{
+    color: white
+}
+
+.p-2{
+    padding: .5rem
+}
+
+.brdr-radius-rounded{
+    border-radius: rounded;
+}
+/* ========================= */
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 5px;
+   
+}
+
+.title h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.title p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 16px; 
+    margin-bottom: 5rem;
+}
+
+/* ========================== */
+
+section .bg{
+    background-image: url("../images/jane.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+section .bg h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.bg-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    /* gap: 0px 20px; */
+}
+
+
+.heroBtn{
+    padding: 20px 40px;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.m-0{
+    margin: 0 !important;
+}
+
+.fs-64{
+    font-size: 64px;
+}
